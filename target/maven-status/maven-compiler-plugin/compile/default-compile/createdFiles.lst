@@ -1,0 +1,3 @@
+com\smarroquin\EventBook\filters\SecurityHeadersFilter.class
+com\smarroquin\EventBook\controllers\homeServlet.class
+com\smarroquin\EventBook\filters\UiAttributesFilter.class
