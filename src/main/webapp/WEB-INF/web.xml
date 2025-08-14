@@ -4,14 +4,6 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
 
-    <filter>
-        <filter-name>SecurityHeadersFilter</filter-name>
-        <filter-class>com.smarroquin.EventBook.filters.SecurityHeadersFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>SecurityHeadersFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
 
     <filter>
         <filter-name>UiAttributesFilter</filter-name>
@@ -21,4 +13,6 @@
         <filter-name>UiAttributesFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+
+
 </web-app>

@@ -1,0 +1,117 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: alexg
+  Date: 14/08/2025
+  Time: 09:50
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<div id="home" class="header-content-area bg_cover d-flex align-items-center" style="background-image: url(${pageContext.request.contextPath}/resources/images/header-bg.jpg)">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+
+                <div class="header-content text-center">
+                    <h2 class="header-title">Bienvenido a los mejores eventos</h2>
+                    <h3 class="sub-title">Navega e informate sobre los mejores eventos disponibles</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="pricing" class="pricing-area pt-115 pb-200">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center pb-20">
+                    <h2 class="title">Ticket Pricing</h2>
+                    <p class="text">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem reiciendis odit sed, vero amet blanditiis cule dicta iriure at phaedrum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-8 col-sm-9">
+                <div class="single-pricing text-center mt-30 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="pricing-name">
+                        <h4 class="pricing-title">BASIC PASS</h4>
+                        <span class="sub-title">Price Excluding 20% VAT</span>
+                    </div>
+                    <div class="pricing-price">
+                        <span>$ 29.00</span>
+                        <p class="text">Per Day</p>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li>Pro  Regular Seating</li>
+                            <li>Best Comfortable Seat</li>
+                            <li>Coffee Break With Snacks</li>
+                            <li>One Workshop For Practise</li>
+                            <li>Course Certificate</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn">
+                        <a class="main-btn" href="#">Buy Ticket</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-9">
+                <div class="single-pricing active text-center mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="pricing-name">
+                        <h4 class="pricing-title">STANDARD PASS</h4>
+                        <span class="sub-title">Price Excluding 20% VAT</span>
+                    </div>
+                    <div class="pricing-price">
+                        <span>$ 39.00</span>
+                        <p class="text">Per Day</p>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li>Pro  Regular Seating</li>
+                            <li>Best Comfortable Seat</li>
+                            <li>Coffee Break With Snacks</li>
+                            <li>One Workshop For Practise</li>
+                            <li>Course Certificate</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn">
+                        <a class="main-btn main-btn-2" href="#">Buy Ticket</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-9">
+                <div class="single-pricing text-center mt-30 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="pricing-name">
+                        <h4 class="pricing-title">PREMIUM PASS</h4>
+                        <span class="sub-title">Price Excluding 20% VAT</span>
+                    </div>
+                    <div class="pricing-price">
+                        <span>$ 49.00</span>
+                        <p class="text">Per Day</p>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li>Pro  Regular Seating</li>
+                            <li>Best Comfortable Seat</li>
+                            <li>Coffee Break With Snacks</li>
+                            <li>One Workshop For Practise</li>
+                            <li>Course Certificate</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn">
+                        <a class="main-btn" href="#">Buy Ticket</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
