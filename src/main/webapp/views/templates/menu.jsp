@@ -42,6 +42,7 @@
 
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <div class="main-btn">Hola, $usuario</div>
+
                         </div>
                     </nav>
                 </div>
