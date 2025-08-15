@@ -1,4 +1,4 @@
-com\smarroquin\EventBook\controllers\createServlet.class
+com\smarroquin\EventBook\controllers\createEvent.class
 com\smarroquin\EventBook\filters\SecurityHeadersFilter.class
 com\smarroquin\EventBook\controllers\eventsServlet.class
 com\smarroquin\EventBook\controllers\homeServlet.class

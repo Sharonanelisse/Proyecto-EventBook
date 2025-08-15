@@ -24,24 +24,22 @@
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item active">
-                                    <a class="page-scroll" href="#home">Inicio</a>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="${pageContext.request.contextPath}/events#home">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#event">Eventos</a>
+                                    <a class="page-scroll" href="${pageContext.request.contextPath}/events#event">Eventos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#team">Registrar evento</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="page-scroll" href="#gallery">Cerrar sesión</a>
+                                    <a class="page-scroll" href="${pageContext.request.contextPath}/admin/events">
+                                        Registrar evento </a>
                                 </li>
 
                             </ul>
                         </div>
 
                         <div class="navbar-btn d-none d-sm-inline-block">
-                            <div class="main-btn">Hola, $usuario</div>
+                            <div class="main-btn">Cerrar sesión</div>
 
                         </div>
                     </nav>

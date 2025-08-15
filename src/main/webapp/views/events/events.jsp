@@ -15,12 +15,16 @@
                 <div class="header-content text-center">
                     <h2 class="header-title">Bienvenido a los mejores eventos</h2>
                     <h3 class="sub-title">Navega e informate sobre los mejores eventos disponibles</h3>
+
+                    <ul class="header-btn">
+                        <li><a class="main-btn page-scroll" href="#event" >Ver eventos</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<section id="counter" class="counter-area pt-80 pb-130">
+<section id="counter" class="counter-area pt-80 pb-25">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-sm-6">
@@ -71,78 +75,41 @@
     </div> <!-- container -->
 </section>
 
-<section id="pricing" class="pricing-area pt-115 pb-200">
+<section id="event" class="pricing-area pt-85">
     <div class="container">
+
+
+
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title text-center pb-20">
-                    <h2 class="title">Eventos disponibles</h2>
-                    <p class="text">Estos son nuestros eventos disponibles.</p>
+                    <h2 class="title">Eventos recientes</h2>
+                    <p class="text">Estos son nuestros eventos más recientes.</p>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-8 col-sm-9">
-                <div class="single-pricing text-center mt-30 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="pricing-name">
-                        <h4 class="pricing-title">Evento 1</h4>
-                        <span class="sub-title">10/09/2025</span>
-                    </div>
+                <div class="single-pricing text-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="pricing-price">
-                        <span>$ 29.00</span>
-
-                    </div>
-
-                    <div class="pricing-btn">
-                        <a class="main-btn" href="#">Buy Ticket</a>
+                        <span>Evento 1</span>
+                        <p class="text">10/09/2025</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-8 col-sm-9">
-                <div class="single-pricing active text-center mt-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="pricing-name">
-                        <h4 class="pricing-title">STANDARD PASS</h4>
-                        <span class="sub-title">Price Excluding 20% VAT</span>
-                    </div>
+                <div class="single-pricing text-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="pricing-price">
-                        <span>$ 39.00</span>
-                        <p class="text">Per Day</p>
-                    </div>
-                    <div class="pricing-list">
-                        <ul>
-                            <li>Pro  Regular Seating</li>
-                            <li>Best Comfortable Seat</li>
-                            <li>Coffee Break With Snacks</li>
-                            <li>One Workshop For Practise</li>
-                            <li>Course Certificate</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-btn">
-                        <a class="main-btn main-btn-2" href="#">Buy Ticket</a>
+                        <span>Evento 2</span>
+                        <p class="text">10/09/2025</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-8 col-sm-9">
-                <div class="single-pricing text-center mt-30 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="pricing-name">
-                        <h4 class="pricing-title">PREMIUM PASS</h4>
-                        <span class="sub-title">Price Excluding 20% VAT</span>
-                    </div>
+                <div class="single-pricing text-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
                     <div class="pricing-price">
-                        <span>$ 49.00</span>
-                        <p class="text">Per Day</p>
-                    </div>
-                    <div class="pricing-list">
-                        <ul>
-                            <li>Pro  Regular Seating</li>
-                            <li>Best Comfortable Seat</li>
-                            <li>Coffee Break With Snacks</li>
-                            <li>One Workshop For Practise</li>
-                            <li>Course Certificate</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-btn">
-                        <a class="main-btn" href="#">Buy Ticket</a>
+                        <span>Evento 3</span>
+                        <p class="text">10/09/2025</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +117,43 @@
     </div>
 </section>
 
+<section><div class="container pt-75 pb-130">
+    <div class="pb-25">
+        <h2 class="header-title text-center">Todos los eventos</h2>
+    </div>
 
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Evento</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Ubicación</th>
+        </tr>
+        </thead>
+        <tbody class="table-group-divider">
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>John</td>
+            <td>Doe</td>
+            <td>@social</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+</section>
 
 
 
