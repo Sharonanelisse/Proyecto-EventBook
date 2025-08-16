@@ -1,0 +1,9 @@
+com\smarroquin\EventBook\repositories\UserRepository.class
+com\smarroquin\EventBook\filters\SecurityHeadersFilter.class
+com\smarroquin\EventBook\controllers\eventsServlet.class
+com\smarroquin\EventBook\controllers\registerServlet.class
+com\smarroquin\EventBook\filters\UiAttributesFilter.class
+com\smarroquin\EventBook\controllers\createEvent.class
+com\smarroquin\EventBook\repositories\EventRepository.class
+com\smarroquin\EventBook\controllers\homeServlet.class
+com\smarroquin\EventBook\controllers\loginServlet.class

@@ -1,0 +1,22 @@
+.gradient-custom {
+    background: #6a11cb;
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+.footerPage {
+    color: #fff;
+    height: 75px;
+    background: #fff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+.formLogin{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
