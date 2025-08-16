@@ -1,6 +1,5 @@
 package com.smarroquin.EventBook.controllers;
 
-import jakarta.servlet.ServletException;
 import com.smarroquin.EventBook.models.User;
 import com.smarroquin.EventBook.repositories.UserRepository;
 import jakarta.servlet.annotation.WebServlet;
@@ -46,6 +45,6 @@ public class LoginServlet extends HttpServlet {
         newSession.setMaxInactiveInterval(30 * 60);
 
         /*Si son válidas:*/
-        resp.sendRedirect(req.getContextPath() + "/home");
+        resp.sendRedirect(req.getContextPath() + "/home.jsp");
     }
 }
