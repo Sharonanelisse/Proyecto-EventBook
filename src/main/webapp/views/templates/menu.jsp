@@ -39,8 +39,7 @@
                         </div>
 
                         <div class="navbar-btn d-none d-sm-inline-block">
-                            <div class="main-btn">Cerrar sesión</div>
-
+                            <a href="${pageContext.request.contextPath}/logout" class="main-btn">Cerrar sesión</a>
                         </div>
                     </nav>
                 </div>

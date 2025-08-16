@@ -2,5 +2,6 @@
 <%
     request.setAttribute("vista", "user/login.jsp");
     request.getRequestDispatcher("templates/template.jsp").forward(request, response);
+    response.sendRedirect("user/login.jsp");
 
 %>

@@ -29,4 +29,9 @@ public class EventRepository {
     public long nextId() {
         return Id.incrementAndGet();
     }
+
+    public void deleteEvent(int id) {
+        events.removeIf(event -> event.getId() == id);
+    }
+
 }
