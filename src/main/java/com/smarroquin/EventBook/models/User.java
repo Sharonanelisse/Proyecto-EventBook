@@ -15,7 +15,13 @@ public class User {
         this.role = "USER";
     }
 
-        public int getId() {return id;}
+    public User(long l, Object o) {
+    }
+
+    public User(long l, String name, String email, String password, String user) {
+    }
+
+    public int getId() {return id;}
         public String getName() {return name;}
         public String getEmail() {return email;}
         public String getPassword() {return password;}
