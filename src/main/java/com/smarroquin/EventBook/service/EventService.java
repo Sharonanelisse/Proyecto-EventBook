@@ -10,15 +10,17 @@ public class EventService {
 
     private final EventRepository repository = new EventRepository();
 
-    // Agregar evento
     public void add(String name, Date date, String location) {
-        long id = repository.nextId(); // Genera ID único
+        long id = repository.nextId();
         Event event = new Event(id, name, date, location);
         repository.add(event);
     }
 
-    // Listar todos los eventos
     public List<Event> findAll() {
         return repository.findAll();
+    }
+
+    public void delete(long id) {
+        repository.deleteEvent(id);
     }
 }
