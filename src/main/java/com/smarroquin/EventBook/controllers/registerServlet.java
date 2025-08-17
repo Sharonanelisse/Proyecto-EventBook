@@ -53,7 +53,7 @@ public class registerServlet extends HttpServlet {
         }
 
         // Crear y guardar usuario
-        User user = new User(name, email, password);
+        User user = new User(name, email, password, role);
         user.setRole(role);
         userRepository.save(user);
 

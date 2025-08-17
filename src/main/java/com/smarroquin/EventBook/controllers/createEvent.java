@@ -21,8 +21,9 @@ public class createEvent extends HttpServlet {
             throws IOException, ServletException {
 
         HttpSession session = request.getSession(false);
-        if (session == null /* || !"ADMIN".equals(session.getAttribute("role")) */) {
-            response.sendRedirect(request.getContextPath() + "/login.jsp?err=1");
+
+        if (session == null || !"ADMIN".equals(session.getAttribute("role"))) {
+            response.sendRedirect(request.getContextPath() + "/views/403.jsp");
             return;
         }
 
@@ -34,6 +35,12 @@ public class createEvent extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
+
+        HttpSession session = request.getSession(false);
+        if (session == null || !"ADMIN".equals(session.getAttribute("role"))) {
+            response.sendRedirect(request.getContextPath() + "/views/403.jsp");
+            return;
+        }
 
         String name = request.getParameter("name");
         String dateStr = request.getParameter("date");

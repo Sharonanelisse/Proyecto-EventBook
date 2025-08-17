@@ -13,9 +13,16 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebServlet("/auth/login")
+@WebServlet("/login")
 public class loginServlet extends HttpServlet {
     private final UserRepository users = new UserRepository();
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws IOException, ServletException {
+        request.setAttribute("vista", "user/login.jsp");
+        request.getRequestDispatcher("views/templates/template.jsp").forward(request, response);
+    }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
@@ -26,8 +33,7 @@ public class loginServlet extends HttpServlet {
 
         // Validar usuario y contraseña
         if (u.isEmpty() || !u.get().getPassword().equals(pass)) {
-            // Credenciales inválidas → redirigir con error
-            resp.sendRedirect(req.getContextPath() + "/login.jsp?err=1");
+            resp.sendRedirect(req.getContextPath() + "/login?err=1");
             return;
         }
 

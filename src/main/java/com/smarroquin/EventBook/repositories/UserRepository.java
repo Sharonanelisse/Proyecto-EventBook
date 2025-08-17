@@ -11,7 +11,8 @@ public class UserRepository {
     private static int idCounter = 1;
 
     static {
-        users.put("admin@gmail.com", new User("admin", "admin@gmail.com", "admin123"));
+        users.put("admin@gmail.com", new User("admin", "admin@gmail.com", "admin123","ADMIN"));
+        users.put("user@gmail.com", new User("user", "user@gmail.com", "user123","USER"));
     }
 
     public Optional<User> findByEmail(String email) {

@@ -27,7 +27,7 @@
                             </c:if>
 
                             <!-- Formulario de login -->
-                            <form action="${pageContext.request.contextPath}/auth/login" method="post">
+                            <form action="${pageContext.request.contextPath}/login" method="post">
                                 <div class="form mb-4">
                                     <label class="form-label" for="typeEmailX">Email</label>
                                     <input type="email"

@@ -8,11 +8,11 @@ public class User {
     private String role;
 
 
-    public User(String name, String email, String password) {
+    public User(String name, String email, String password, String role) {
         this.name = name;
         this.email = email;
         this.password = password;
-        this.role = "USER";
+        this.role = (role == null || role.isBlank()) ? "USER" : role.toUpperCase();
     }
 
     public User(long l, Object o) {
