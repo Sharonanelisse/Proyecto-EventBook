@@ -1,3 +1,4 @@
+com\smarroquin\EventBook\controllers\deleteEventServlet.class
 com\smarroquin\EventBook\repositories\UserRepository.class
 com\smarroquin\EventBook\filters\SecurityHeadersFilter.class
 com\smarroquin\EventBook\controllers\eventsServlet.class

@@ -20,13 +20,13 @@ public class createEvent extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
 
-        // Validación simple si quieres agregar ADMIN
         HttpSession session = request.getSession(false);
         if (session == null /* || !"ADMIN".equals(session.getAttribute("role")) */) {
             response.sendRedirect(request.getContextPath() + "/login.jsp?err=1");
             return;
         }
 
+        // Este atributo indica qué JSP cargar dentro del template
         request.setAttribute("vista", "admin/create.jsp");
         request.getRequestDispatcher("/views/templates/templateWeb.jsp").forward(request, response);
     }
@@ -40,10 +40,13 @@ public class createEvent extends HttpServlet {
         String location = request.getParameter("location");
 
         if (name != null && dateStr != null && location != null) {
-            Date date = Date.valueOf(dateStr); // Convierte string a java.sql.Date
+            Date date = Date.valueOf(dateStr);
             eventService.add(name, date, location);
         }
 
-        response.sendRedirect(request.getContextPath() + "/events"); // Redirige al listado
+        // Redirige al listado de eventos después de crear
+        response.sendRedirect(request.getContextPath() + "/events");
     }
 }
+
+
